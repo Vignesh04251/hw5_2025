@@ -126,15 +126,20 @@ a:visited {
         align-items: center;
     }
     .nav_links{
+        display: flex;
         flex-flow: row wrap; /* Step 17 - adjust to match the example for print */
-        justify-content: space-between;
+        justify-content: center;
+        gap: 7em;
     }
     body{
         font-family: Arial, Helvetica; /* Step 15 - changed font to arial with hevletica as secodnary */
         background-image: none; /* Step 16 - removed background image*/
     }
     .pricing{ /* Step 18 - align itmes at the bottom */
+        display: flex;
         align-items: flex-end;
+        justify-content: center;
+        flex-wrap: nowrap;
     }
     .card{ /* Step 19 - adjusted card border and sizig to 325px*/
         border: 2px solid #45ADDD;
